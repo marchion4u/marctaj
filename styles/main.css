@@ -1,0 +1,125 @@
+body,html {
+  font-family: 'Lato', sans-serif;
+  color: #212121
+}
+
+p {
+  line-height: 1.5rem
+}
+
+#announcement {
+  margin: 0;
+  padding: 18px
+}
+
+#announcement i {
+  cursor: pointer
+}
+
+.transparent-dark {
+  background-color: rgba(22, 46, 60, 0.78)!important
+}
+
+nav .brand-logo {
+  font-size: 1.5rem
+}
+
+nav ul a.active {
+  border-bottom: 2px solid #fff;
+  background-color: rgba(0,0,0,.3)!important;
+}
+
+nav ul a.btn.active {
+  height: 100%;
+  line-height: 58px
+}
+
+#banner {
+  /* position: relative;
+  top: 0;
+  width: 100%; */
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(../images/banners/main.jpg)
+}
+
+#scrollup {
+  display: none
+}
+
+.btn,.btn-large {
+  background-color: #1976d2!important
+}
+
+.section-subtitle,.section-title {
+  text-align: center;
+  padding-bottom: 40px
+}
+
+.section-subtitle {
+  margin-top: -24px
+}
+
+.area {
+  line-height: .75rem;
+  padding-bottom: 10px
+}
+
+.section {
+  padding: 5em 0
+}
+
+.banner-section {
+  padding-top: 15em
+}
+
+.banner-header {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2em 0;
+}
+
+.banner-subheader {
+  text-decoration: overline;
+}
+
+.social-icons ul li {
+  display: inline
+}
+
+.social-icons [data-icon]:before {
+  font-size: 30px
+}
+
+footer.page-footer {
+  margin: 0;
+  color: inherit;
+  background-color: hsla(15,11%,71%,.2)!important
+}
+
+.page-footer .footer-copyright {
+  color: inherit
+}
+
+.cities {
+  padding-top: 10px
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+      width:85%
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ul.side-nav a {
+      font-size:20px;
+      text-transform: uppercase
+  }
+
+  .section {
+      padding-top: 3em;
+      padding-bottom: 2em
+  }
+}
