@@ -1,10 +1,20 @@
+::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.55em;
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #748894;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
 body,html {
   font-family: 'Lato', sans-serif;
   color: #212121
-}
-
-p {
-  line-height: 1.5rem
 }
 
 #announcement {
@@ -35,14 +45,50 @@ nav ul a.btn.active {
 }
 
 #banner {
-  /* position: relative;
-  top: 0;
-  width: 100%; */
   min-height: 500px;
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-  background-image: url(../images/banners/main.jpg)
+  background-image: url(../images/banners/main.jpg);
+}
+
+.card.horizontal {
+  overflow: auto;
+  min-height: 114px;
+}
+
+.card.horizontal .avatar .circle {
+  margin: 2em 1em;
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+}
+
+.card.horizontal .avatar .initials {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1;
+  position: relative;
+  top: 0.9em;
+}
+
+.card.horizontal .card-content {
+  padding: 1em 1em 1em 0;
+}
+
+.card.horizontal .card-content .card-title {
+  margin-bottom: 0;
+  line-height: unset;
+}
+
+.card .card-content .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card.horizontal .card-content a {
+  font-size: 0.9rem;
 }
 
 #scrollup {
@@ -60,6 +106,10 @@ nav ul a.btn.active {
 
 .section-subtitle {
   margin-top: -24px
+}
+
+p.section-subtitle {
+  font-size: 1.1rem;
 }
 
 .area {
@@ -80,17 +130,6 @@ nav ul a.btn.active {
   padding: 2em 0;
 }
 
-.banner-subheader {
-  text-decoration: overline;
-}
-
-.social-icons ul li {
-  display: inline
-}
-
-.social-icons [data-icon]:before {
-  font-size: 30px
-}
 
 footer.page-footer {
   margin: 0;
